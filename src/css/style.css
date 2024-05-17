@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Ownglyph_meetme-Rg";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "Ownglyph_meetme-Rg";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    315deg,
+    hsl(42deg 100% 85%) 0%,
+    hsl(29deg 95% 85%) 10%,
+    hsl(16deg 92% 85%) 20%,
+    hsl(3deg 89% 86%) 30%,
+    hsl(350deg 83% 86%) 40%,
+    hsl(337deg 80% 86%) 50%,
+    hsl(305deg 81% 87%) 60%,
+    hsl(272deg 83% 88%) 70%,
+    hsl(239deg 85% 89%) 80%,
+    hsl(206deg 88% 90%) 90%,
+    hsl(174deg 91% 91%) 100%
+  );
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover .menu-item {
+  background-color: #d4fdf9;
+  border-color: #d4fdf9;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  padding: 28px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #777;
+}
+
+.container .main-image {
+  position: absolute;
+  top: -80px;
+  left: 470px;
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.menu-item span {
+  font-size: 20px;
+  color: #0b1215;
+}
+
+.menu-item img {
+  width: 20px;
+  margin-left: 6px;
+}
