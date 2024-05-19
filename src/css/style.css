@@ -91,3 +91,44 @@ a:hover .menu-item {
   width: 20px;
   margin-left: 6px;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    width: 440px;
+  }
+
+  .container .main-image {
+    width: 110px;
+    top: -53px;
+    left: 356px;
+  }
+
+  .menu-item span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .container .main-image {
+    transform: translateX(-50%);
+    left: 50%;
+    top: -100px;
+    width: 100px;
+  }
+
+  .menu-item span {
+    font-size: 14px;
+  }
+}
